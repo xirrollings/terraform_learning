@@ -33,7 +33,7 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
-        run: terraform plan -var="key_name=var.key_name"
+        run: terraform plan -var="key_name=test111"
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve -var="key_name=var.key_name"
+        run: terraform apply -auto-approve -var="key_name=test111"
