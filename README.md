@@ -12,6 +12,7 @@ To reduce manual deployment effort, I integrated GitHub Actions into the project
 
 The project demonstrates practical experience with cloud infrastructure, Linux-based application hosting, networking, and CI/CD automation.
 
+![AWS Flask Application Architecture](aws-flask-architecture.png)
 ## Architecture
 
 The deployment architecture consists of the following components:
