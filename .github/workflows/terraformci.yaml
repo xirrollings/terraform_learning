@@ -11,7 +11,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: terraform_learning
+        working-directory: 
 
     steps:
       - name: Checkout Code
