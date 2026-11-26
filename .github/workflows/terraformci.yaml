@@ -36,5 +36,4 @@ jobs:
         run: terraform plan -var="key_name=my-keypair"
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve \
-          -var="key_name=my-keypair"
+        run: terraform apply -auto-approve -var="key_name=my-keypair"
